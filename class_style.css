@@ -1,0 +1,56 @@
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 8rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    padding: 2rem 4rem;
+}
+
+.logo-navlink {
+    display: flex;
+    align-items: center;
+    /* gap: 16rem; */
+    /* border: 1px solid red; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    height: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    justify-content: flex-start;
+}
+
+.rightSide {
+    align-items: center;
+}
+
+.pro-pic {
+    width: 40px;
+    height: 40px;
+}
